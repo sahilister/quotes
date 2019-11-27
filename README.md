@@ -1,2 +1,2 @@
 # QuoteGenerator
-A quote generator using Javascript
+A quote generator using basic React.

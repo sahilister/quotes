@@ -1,10 +1,10 @@
 import React from 'react';
 
-function QuoteDisplay() {
+function QuoteDisplay(props) {
     return(
         <div>
-            <h2 id="quote">Random Quote</h2>
-            <h4 id="author">- Author</h4>
+            <h2>{props.quote}</h2>
+            <h4>-- {props.author}</h4>
         </div>
     )
 }

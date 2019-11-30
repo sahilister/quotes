@@ -1,11 +1,9 @@
 import React from 'react';
+import QuoteDisplay from './QuoteDisplay.js'
 
 function App() {
     return(
-        <div>
-            <h2 id="quote">Random Quote</h2>
-            <h4 id="author">- Author</h4>
-        </div>
+        <QuoteDisplay />
     )
 }
 

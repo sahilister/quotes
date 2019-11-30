@@ -5,6 +5,10 @@ body {
     color: burlywood;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h4 {
+    color: black;
+}
 .quote {
 
 }

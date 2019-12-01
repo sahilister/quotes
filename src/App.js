@@ -2,15 +2,20 @@ import React from 'react';
 import QuoteDisplay from './QuoteDisplay.js'
 import quoteData from './quoteData'
 
-function App() {
-    const display = quoteData.map(data => 
-        <QuoteDisplay quote={data.quote} author={data.author} />);
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min; 
+}
 
+function App() {
+    let value = getRandomInt(0, 9);
     return(
         <div>
-            {display}
+            <QuoteDisplay quote={quoteData[value].quote} author={quoteData[value].author}/>
         </div>
     )
 }
-
 export default App
+
+

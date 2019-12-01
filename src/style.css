@@ -2,17 +2,13 @@ body {
     background: url('bg1.jpg');
     margin: 10vw;
     text-align: center;
-    color: burlywood;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    color: cadetblue;
 }
 
 h4 {
     color: black;
 }
-.quote {
 
-}
-
-.author {
-    color: black;
-}

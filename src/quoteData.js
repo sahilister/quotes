@@ -38,7 +38,84 @@ const quoteData = [
         id: 7,
         quote: "I used to think the world was broken down by tribes,' I said. 'By Black and White. By Indian and White. But I know this isn't true. The world is only broken into two tribes: the people who are assholes and the people who are not.",
         author: "Sherman Alexie, The Absolutely True Diary of a Part-Time Indian "
+    },
+    {
+        id: 8,
+        quote: "Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.",
+        author: "Bill Keane"
+    },
+    {
+        id: 9,
+        quote: "You only lose what you I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+        author: "Albert Einstein"
+    },
+    {
+        id: 10,
+        quote: "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And YOU are the one who'll decide where to go...",
+        author: "Dr. Seuss, Oh, the Places You'll Go!"
+    },
+    {
+        id: 11,
+        quote: "You've gotta dance like there's nobody watching , Love like you'll never be hurt , Sing like there's nobody listening, And live like it's heaven on earth.",
+        author: " William W. Purkey"
+    },
+    {
+        id: 12,
+        quote: "You only live once, but if you do it right, once is enough.",
+        author: "Mae West"
+    },
+    {
+        id: 13,
+        quote: "In three words I can sum up everything I've learned about life: it goes on.",
+        author: "Rober Frost"
+    },
+    {
+        id: 14,
+        quote: "To live is the rarest thing in the world. Most people exist, that is all.",
+        author: "Oscar Wilde"
+    },
+    {
+        id: 15,
+        quote: "It is better to be hated for what you are than to be loved for what you are not. only lose what you cling to",
+        author: "Andre Gide, Autumn Leaves"
+    },
+    {
+        id: 16,
+        quote: "It does not do to dwell on dreams and forget to live.",
+        author: "J.K. Rowling, Harry Potter and the Sorcerer's Stone "
+    },
+    {
+        id: 17,
+        quote: "Life is what happens to us while we are making other plans.",
+        author: " Allen Saunders"
+    },
+    {
+        id: 18,
+        quote: "I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+        author: "Douglas Adams, The Long Dark Tea-Time of the Soul "
+    },
+    {
+        id: 19,
+        quote: "Sometimes the questions are complicated and the answers are simple.",
+        author: "Dr. Seuss "
+    },
+    {
+        id: 20,
+        quote: "Life isn't about finding yourself. Life is about creating yourself.",
+        author: "George Bernard Shaw"
+    },
+    {
+        id: 21,
+        quote: "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        author: "Albert Einstein"
     }
 ]
 
 export default quoteData
+
+// Template object
+// {
+//     id: ,
+//     quote: " ",
+//     author: " "
+// },

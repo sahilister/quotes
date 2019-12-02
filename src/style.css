@@ -1,14 +1,18 @@
 body {
-    background: url('bg1.jpg');
+    background: url('bg3.jpg');
+    background-position: center;
     margin: 10vw;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
-h2 {
-    color: cadetblue;
+h1 {
+    font-size: 2rem;
+    color: goldenrod;
+    text-align: center;
 }
 
 h4 {
-    color: black;
+    color: thistle;
 }
 

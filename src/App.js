@@ -9,7 +9,7 @@ function getRandomInt(min, max) {
 }
 
 function App() {
-    let value = getRandomInt(0, 9);
+    let value = getRandomInt(0, 21); //Update values after adding new quotes.
     return(
         <div>
             <QuoteDisplay quote={quoteData[value].quote} author={quoteData[value].author}/>

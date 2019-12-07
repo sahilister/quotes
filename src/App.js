@@ -8,11 +8,20 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min; 
 }
 
+function display() {
+    let value = getRandomInt(0, 21); 
+    <QuoteDisplay quote={quoteData[value].quote}author={quoteData[value].author} />
+}
+
 function App() {
-    let value = getRandomInt(0, 21); //Update values after adding new quotes.
+    //Update values after adding new quotes.
+
+    
+
     return(
         <div>
-            <QuoteDisplay quote={quoteData[value].quote} author={quoteData[value].author}/>
+            display();
+            {/* <button onClick={  }>New Aroma</button> */}
         </div>
     )
 }

@@ -16,17 +16,17 @@ const quoteData = [
     },
     {
         id: 3,
-        quote: "“Women should be respected as well! Generally speaking, men are held in great esteem in all parts of the world, so why shouldn't women have their share? Soldiers and war heroes are honored and commemorated, explorers are granted immortal fame, martyrs are revered, but how many people look upon women too as soldiers?...Women, who struggle and suffer pain to ensure the continuation of the human race, make much tougher and more courageous soldiers than all those big-mouthed freedom-fighting heroes put together!” ",
+        quote: "Women should be respected as well! Generally speaking, men are held in great esteem in all parts of the world, so why shouldn't women have their share? Soldiers and war heroes are honored and commemorated, explorers are granted immortal fame, martyrs are revered, but how many people look upon women too as soldiers?...Women, who struggle and suffer pain to ensure the continuation of the human race, make much tougher and more courageous soldiers than all those big-mouthed freedom-fighting heroes put together! ",
         author: "Anne Frank, The Diary of a Young Girl "
     },
     {
         id: 4,
-        quote: "“I was, but then I realized that I was holding on to something that didn't exist anymore. That the person I missed didn't exist anymore. People change. The things we like and dislike change. And we can wish they couldn't all day long but that never works.” ",
+        quote: "I was, but then I realized that I was holding on to something that didn't exist anymore. That the person I missed didn't exist anymore. People change. The things we like and dislike change. And we can wish they couldn't all day long but that never works.",
         author: "Sarah Ockler, Fixing Delilah"
     },
     {
         id: 5,
-        quote: "Genuine love is rarely an emotional space where needs are instantly gratified. To know love we have to invest time and commitment...'dreaming that love will save us, solve all our problems or provide a steady state of bliss or security only keeps us stuck in wishful fantasy, undermining the real power of the love -- which is to transform us.' Many people want love to function like a drug, giving them an immediate and sustained high. They want to do nothing, just passively receive the good feeling.",
+        quote: "Genuine love is rarely an emotional space where needs are instantly gratified. To know love we have to invest time and commitment...dreaming that love will save us, solve all our problems or provide a steady state of bliss or security only keeps us stuck in wishful fantasy, undermining the real power of the love -- which is to transform us.' Many people want love to function like a drug, giving them an immediate and sustained high. They want to do nothing, just passively receive the good feeling.",
         author: "Bell Hooks"
     },
     {
@@ -46,7 +46,7 @@ const quoteData = [
     },
     {
         id: 9,
-        quote: "You only lose what you I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+        quote: "I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
         author: "Albert Einstein"
     },
     {

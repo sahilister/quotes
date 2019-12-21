@@ -8,22 +8,33 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min; 
 }
 
-function display() {
-    let value = getRandomInt(0, 21); 
-    <QuoteDisplay quote={quoteData[value].quote}author={quoteData[value].author} />
-}
+// function display() {
+    
+// }
 
-function App() {
-    //Update values after adding new quotes.
+// function App() {
+//     //Update values after adding new quotes.
 
     
 
-    return(
-        <div>
-            display();
-            {/* <button onClick={  }>New Aroma</button> */}
-        </div>
-    )
+//     return(
+//         <div>
+//             display();
+//             <button onClick={display}  >New Aroma</button> 
+//         </div>
+//     )
+// }
+
+class App extends React.Component {
+    render(){
+        const value = getRandomInt(0, 21); 
+        return(
+            <div>
+                
+                <QuoteDisplay quote={quoteData[value].quote}author={quoteData[value].author} />
+            </div>
+        )
+    }
 }
 export default App
 

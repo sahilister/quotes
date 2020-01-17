@@ -27,10 +27,9 @@ function getRandomInt(min, max) {
 
 class App extends React.Component {
     render(){
-        const value = getRandomInt(0, 21); 
+        const value = getRandomInt(0, 48); 
         return(
             <div>
-                
                 <QuoteDisplay quote={quoteData[value].quote}author={quoteData[value].author} />
             </div>
         )

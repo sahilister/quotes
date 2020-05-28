@@ -1,6 +1,5 @@
-# QuoteGenerator
-A quote generator using basic Javascript and React combination.
-
+# Quotes
+Get quotes
 ### [Live Version](https://quotegenerator.sahilister.now.sh/)
 
 

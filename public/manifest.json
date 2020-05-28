@@ -1,6 +1,6 @@
 {
-  "short_name": "Quote Generator",
-  "name": "Random Quote Generator using React",
+  "short_name": "quotes",
+  "name": "quotes",
   "icons": [
     {
       "src": "favicon.ico",
